@@ -2,12 +2,12 @@ package Thread;
 
 import java.util.Iterator;
 
-public class Timer implements Runnable {
+public class Cronometro implements Runnable {
 //vai ficar por ultimo
 
 	Data data;
 
-	public Timer(Data data) {
+	public Cronometro(Data data) {
 		this.data = data;
 	}
 

@@ -15,29 +15,23 @@ public class Data {
 	public int alarmHora;
 	public int alarmMinuto;
 	
-	//Configuração do Contador
-	public int contadorSec;
-	public int contadorMin;
-	public int contadorhora;
+	//Configuração do relogio
+	public int relogioSec; 
+	public int relogioMin;
+	public int relogiohora;
 	
-	// Opções de Alarme / Cronometro e Relogio
-	public boolean opcaoAlarme;
+	//Opção de alarme podendo ser ligado e desligado
 	public boolean opcaoTimer;
-	public boolean opcaoRelogio;
-	public boolean opcaoContador;
 
 	
 	public Data() {
-		this.hora = 0;
-		this.minuto = 0;
-		this.segundos = 0;
 		this.alarmHora = 0;
 		this.alarmMinuto = 0;
 		this.cronometroHora = 0;
 		this.cronometroMin = 0;
-		this.contadorhora = 0;
-		this.contadorMin = 0;
-		this.contadorSec = 0;
+		this.relogiohora = 0;
+		this.relogioMin = 0;
+		this.relogioSec = 0;
 	}
 	
 	
